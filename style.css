@@ -1,0 +1,199 @@
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #005bea;
+}
+
+/* Cabeçalho */
+header {
+  background: #222;
+  color: white;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #005bea, #00c6fb);
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background: white;
+  color: #005bea;
+  border: none;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-img {
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Funcionalidades */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.features div {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 1.2rem;
+}
+
+.features i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #005bea;
+}
+
+/* Demonstração */
+.demo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 0 20px;
+}
+
+.demo-gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Planos */
+.planos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.plano {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 280px;
+  text-align: center;
+}
+
+.plano.destaque {
+  border: 2px solid #005bea;
+  transform: scale(1.05);
+}
+
+.plano button {
+  margin-top: 15px;
+  background: #005bea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  background: #00c6fb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* WhatsApp */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
